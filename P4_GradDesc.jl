@@ -20,7 +20,7 @@ P = [10.0 -1.0;
 
 q = [0; -10.0];
 
-x₀ - zeros(2);
+x₀ = zeros(2);
 
 result = gradient_descent(P,q,x₀)
 
